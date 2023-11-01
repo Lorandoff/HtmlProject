@@ -11,6 +11,10 @@ header{
     margin: 0px;
     overflow: hidden;
 }
+p{
+    text-align: justify;
+    margin: 25px;
+}
 nav{
     position: unset;
     display: block;
