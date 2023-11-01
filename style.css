@@ -1,0 +1,173 @@
+header{
+    background-color: aliceblue;
+    text-align: center;
+    padding: 25px;
+}
+.TagList{
+    text-align: center;
+    word-spacing: 2em;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+nav{
+    position: unset;
+    display: block;
+    width: auto;
+    height: auto;
+    background: none;
+}
+article{
+    padding-top: 15px;
+}
+footer h3{
+    padding-top: 5px;
+}
+footer img{
+    display: inline;
+    width: 50px;
+    height: 50px;
+    margin-left: 15px;
+    border-radius: 15px;
+}
+.NavList a{
+    
+        color: black;
+        display: block;
+        text-transform: uppercase;
+        padding: 5px;
+    
+}
+.NavList{
+    display: inline;
+    
+    text-align: center;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 25px;
+    overflow: hidden;
+    a{
+        color: black;
+        display: block;
+        &:hover{
+            background: rgb(223, 205, 205);
+        }
+    }
+}
+article code{
+    justify-content: center;
+}
+code{
+    display: inline-block;
+    border: 5px solid red;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+/*.navbar a{
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    padding: 15px;
+}*/
+.NavList li{
+    float: left;
+
+    
+}
+article p::first-line{
+    text-decoration: dashed;
+}
+p:lang(en){
+    text-transform: none;
+}
+p:lang(ru){
+    text-transform: uppercase;
+}
+#About p{
+    text-decoration: underline;
+    background-color: aliceblue;
+}
+img + p{
+    margin-top: 15px;
+    padding-top: 15px;
+}
+dl::before{
+    content: "Important";
+    border: 5px;
+    background-color: burlywood;
+    text-decoration-color: blueviolet;
+}
+.NavList li:hover{
+    text-decoration: underline;
+}
+main{
+    padding: 25px;
+}
+p{
+    text-align: justify;
+    line-height: 20px;
+}
+h2{
+    text-align: left
+}
+
+.TagList li{
+    float: left;
+    margin-right: 10px;
+    background-color: forestgreen;
+    border-radius: 5px;
+}
+footer{
+    height: 100px;
+    background-color: coral;
+    img{
+        width: 100px;
+        height: 100px
+    }
+}
+.Grid{
+    display: flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    align-content:center;
+    justify-content: center;
+    border: 0px solid brown;
+    height: 350px;
+    width: 100%;
+    border-radius: 15px;
+}
+.Card{
+    border-radius: 10px;
+    margin-right: 25px;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    height: 350px;
+    width: 250px;
+    background-image:initial;
+    box-shadow: 15px black;
+    
+}
+.CardText{
+    display:block;
+    background-color: aliceblue;
+
+}
+.CardText h3{
+    text-align: center;
+}
+.Card img{
+    height: 200px;
+    width: 250px;
+    
+}
+.CardText :hover{
+    display: block;
+}
+a:hover{
+    background-color: rgb(235, 211, 211);
+}
+a:focus{
+    background-color: brown;
+}
